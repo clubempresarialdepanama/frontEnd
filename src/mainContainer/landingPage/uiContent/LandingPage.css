@@ -1,0 +1,71 @@
+:root {
+    --main-blue-color: #1d3358;
+    --main-gold-color: #c0973b;
+    --main-gold-color-onHover: #806b4c;
+    --main-font:'Open Sans Italic';
+    --main-font-bold:'Open Sans SemiBold Italic';
+    --main-font-title:'Open Sans SemiBold Italic';
+    --font-Size:20px;
+    --font-Size-title:20px;
+
+  }
+.landingPage__topSection{
+background-color: var(--main-gold-color);
+
+}
+.landingPage__topSection--text{
+padding: 15px 45px 15p 45px;
+font-family: var(--main-font);
+font-size: var(--font-Size-title);
+padding: 15px 75px 10px 75px;
+color: white;
+}
+.landingPage__subtitle{
+  color:white;
+  font-family: var(--main-font-title);
+  font-size: var(--font-Size);
+}
+.landingPage__serviceSection{
+padding-top: 15px;
+background-color: var( --main-blue-color);
+}
+.landing--service{
+
+}
+.landingPage__clubSection{
+  display: flex column;
+}
+.landing__club__text--container{
+  /* background-color: var( --main-blue-color); */
+  padding: 15px 75px 10px 75px;
+  display: flex;
+}
+.landingPage__subtitle{
+  background-color: var( --main-blue-color);
+}
+.landing__club__text--subContainer{
+  background-color: white;
+}
+.landing--club--image{
+  width: 150px;
+  width: 450px;
+  background-color: white;
+}
+
+.landing__club__footer--socialMedia{
+
+}
+.landingPage__footer--text{
+  color:var(--main-gold-color);
+  margin-right: 15px;
+}
+.landingPage__footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 200px;
+  background-color: var( --main-blue-color);
+}
+.landing--footer--img{
+ margin-left:15px ;
+}

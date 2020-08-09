@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import{} from '../../redux/users/UsersAction'
+import NavbarContainerManager from '../navbar/NavbarContainerManager'
+import LandingPage from '../landingPage/uiContent/LandingPage'
 export default class MainContent extends Component {
     render() {
 
         return (
             <div>
-                
-<span>heyyyyy</span>
+            <NavbarContainerManager />
+            <LandingPage/>
             </div>
         )
     }

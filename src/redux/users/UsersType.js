@@ -1,1 +1,3 @@
-export const ISLOGIN = 'ISLOGIN'
+
+export const SET_USER_STATUS = 'SET_USER_STATUS'
+export const SET_SERVICE_VIEW = 'SET_SERVICE_VIEW'

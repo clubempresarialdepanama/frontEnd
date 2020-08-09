@@ -1,18 +1,27 @@
  import {makeReducer} from '../../commons/ReducersHelper'
- import {ISLOGIN} from './UsersType'
+ import { SET_USER_STATUS,SET_SERVICE_VIEW } from './UsersType'
 
 
    export const initialState = {
-      isLogin:false
+    isLogin: false,
+    serviceView: 0
   }
 export const actionsMap={
-    [ISLOGIN]:(prevState,{isLogin})=>{
-        return {
-            ...prevState,
-            isLogin
-        }
-    }
-}
- 
 
+    [SET_USER_STATUS]: (prevState, { isLogin }) => {
+       
+        return {
+          ...prevState,
+          isLogin
+        }
+      },
+    [SET_SERVICE_VIEW]: (prevState, { serviceView }) => {
+    
+        return {
+          ...prevState,
+          serviceView
+        }
+      },
+
+}
  export default makeReducer({initialState, actionsMap})
