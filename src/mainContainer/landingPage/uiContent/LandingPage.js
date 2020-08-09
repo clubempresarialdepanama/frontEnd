@@ -29,7 +29,7 @@ const LandingPage =({
             </div>
             <div className='landingPage__serviceSection'>
             <p className='landingPage__subtitle'>SERVICIOS</p>
-            <img  className='landing--service' src={service} alt='Smiley face'/>
+            <img  className='landing--service-img' src={service} alt='Smiley face'/>
             </div>
             <div className='landingPage__clubSection'>
             <p className='landingPage__subtitle'>CLUB</p>
@@ -47,7 +47,7 @@ const LandingPage =({
                 </div>
             </div>
             <div className='landingPage__bottomSection'>
-            <img  className='landing--service' src={foot_screen} alt='Smiley face'/>
+            <img  className='landing--service--bottom' src={foot_screen} alt='Smiley face'/>
             </div>
             <div className='landingPage__footer'>
                 <div className='landing__club__footer--socialMedia'>

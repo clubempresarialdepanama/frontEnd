@@ -29,9 +29,7 @@ color: white;
 padding-top: 15px;
 background-color: var( --main-blue-color);
 }
-.landing--service{
 
-}
 .landingPage__clubSection{
   display: flex column;
 }
@@ -52,8 +50,23 @@ background-color: var( --main-blue-color);
   background-color: white;
 }
 
-.landing__club__footer--socialMedia{
-
+@media (min-width: 500px) and (max-width: 600px) {
+  .landingPage__serviceSection {
+    display: none;
+  }
+  .landing--club--image{
+    display: none;
+  }
+  .landing--service--bottom{
+    display:none
+  }
+  .landing--service--bottom{
+    display:none
+  }
+  .landing--footer--img{
+    width: 30px;
+    height: 30px;
+  }
 }
 .landingPage__footer--text{
   color:var(--main-gold-color);
