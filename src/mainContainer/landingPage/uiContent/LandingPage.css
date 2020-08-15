@@ -49,7 +49,9 @@ background-color: var( --main-blue-color);
   width: 450px;
   background-color: white;
 }
-
+.landing--header{
+  width: 100%;
+}
 @media (min-width: 500px) and (max-width: 600px) {
   .landingPage__serviceSection {
     display: none;
@@ -67,6 +69,12 @@ background-color: var( --main-blue-color);
     width: 30px;
     height: 30px;
   }
+}
+.landing--service-img{
+  width: 100%;
+}
+.landing--service--bottom{
+  width: 100%;
 }
 .landingPage__footer--text{
   color:var(--main-gold-color);
